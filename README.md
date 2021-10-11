@@ -21,7 +21,7 @@ const micahPatrick = {
     backend: ["Node.js", "RESTful APIs" "Express", "MongoDB", "PostgreSQL", "Knex", "JWT", "Cors"],
     frontend: ["JavaScript ES6", "React", "HTML5", "CSS3", "SCSS"],
     misc: ["NPM", "Git", "GitHub", "VS Code", "Bootstrap"]
-  }
+  },
   favorite: {
     color: "#68A74E", // lime green
     food: "tacos",
