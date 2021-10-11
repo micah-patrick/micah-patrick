@@ -26,7 +26,7 @@ const micahPatrick = {
     color: "#68A74E", // lime green
     food: "tacos",
     snack: "popcorn"
-  }
+  },
   lookingForWork: true,
   willingToRelocate: true
 }
