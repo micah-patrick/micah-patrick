@@ -40,7 +40,7 @@ export default function ProjectPreview({project}){
                     <div className="social social-github">
                         <a className="social social-github" href={project.github} target="_blank" rel="noreferrer"><span>GitHub</span></a>
                     </div>
-                    <Link to={`/${project.id}`}>{<ReactMarkdown remarkPlugins={[gfm]} children={projectHeader} />}</Link>
+                    <Link to={`/projects/${project.id}`}>{<ReactMarkdown remarkPlugins={[gfm]} children={projectHeader} />}</Link>
                     <ReactMarkdown remarkPlugins={[gfm]} children={readme} />
             </div>
             </>

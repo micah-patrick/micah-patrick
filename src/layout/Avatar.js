@@ -18,7 +18,7 @@ export default function Avatar() {
     return (
         <>
         <div className="navWrapper">
-            <Link to={`/${projectLink}`} 
+            <Link to={`/projects/${projectLink}`} 
                 onMouseEnter={randomProject}
                 onMouseLeave={() => setAvatar("avatar-img")}
             >

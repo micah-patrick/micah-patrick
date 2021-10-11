@@ -7,7 +7,7 @@ export default function Social(){
         blank: "\u00A0",
         linkedin: "Come connect with me.",
         github: "Come see what I'm working on.",
-        twitter: "There's really nothing to see here.",
+        email: "Email me, micah@micahpatrick.com.",
     };
 
     const [socialMessage, setSocialMessage] = useState(messages.blank)
@@ -28,14 +28,14 @@ export default function Social(){
                         onMouseLeave={() => setSocialMessage(messages.blank)}
                     ><span>GitHub</span></a>
                 </div>
-                <div className="col social social-twitter">
-                    <a href="https://twitter.com/MicahPatrick" target="_blank" rel="noreferrer"
-                        onMouseEnter={() => setSocialMessage(messages.twitter)}
+                <div className="col social social-email">
+                    <a href="mailto:micah@micahpatrick.com" target="_blank" rel="noreferrer"
+                        onMouseEnter={() => setSocialMessage(messages.email)}
                         onMouseLeave={() => setSocialMessage(messages.blank)}
-                    ><span>Twitter</span></a>
+                    ><span>email</span></a>
                 </div>
         </div>
-        <div className="navWrapper">
+        <div className="navWrapper mb-5">
                 <p>
                     {socialMessage}
                 </p>
